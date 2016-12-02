@@ -97,7 +97,11 @@ function InitConditions(block)
    else, % reset the figure to 'modal' to continue accepting keyboard input
       set(handle.figure,'WindowStyle','Modal')
    end
-  block.Dwork(2).Data = handle.figure;
+   if strcmp(class(handle.figure),'double')
+       block.Dwork(2).Data = handle.figure;
+   else
+          block.Dwork(2).Data = handle.figure.Number;
+   end
 
   
 %endfunction
