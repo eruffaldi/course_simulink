@@ -1,4 +1,4 @@
-function sfun_keyboard_input_v1_2(block)
+function sfun_keyboard_input_v1_2b(block)
 % modified from sfun_keyboard_input_v1_01.m of Marc Compere by Emanuele Ruffaldi
 % created : 17 June 2003
 % modified: 20 June 2003
